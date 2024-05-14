@@ -1,0 +1,47 @@
+* {
+    font-family: 'Roboto Mono';
+}
+
+header {
+    position: absolute;
+    background-image: url('../Images/Lobster Hands.jpeg');
+    width: 100%;  
+}
+
+header, a:visited, a:link, a:active {
+    color:#26970C;
+    text-decoration: none;
+}
+
+
+header, h1 {
+    text-align: center;
+    color: #5B5B5B;
+    padding-bottom: 50px;
+}
+
+header, h3 {
+    color: #5B5B5B;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+nav {
+    color: #26970C;
+    background-color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+nav li {
+    align-items: left;
+}
+
